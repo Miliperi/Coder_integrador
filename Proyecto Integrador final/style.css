@@ -1,0 +1,274 @@
+.contenedor{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body {
+  background-color: white;
+  margin: 0px;
+  width: 100%;
+  overflow-x: hidden; }
+
+h1 {
+  color: #820022;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  text-align: center;
+  height: 30px;
+  margin: 0px;
+  padding: 15px; }
+
+h2 {
+  font-weight: 400;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  color:#820022; }
+
+  h3{
+    color: #820022;
+  }
+
+
+ol li {
+  color: #401201;
+  list-style: disc;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  font-size: 18px; }
+
+ul li {
+  color: #401201;
+  list-style: circle;
+  list-style: disc;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  letter-spacing: 5px; }
+
+dl {
+  list-style: disc;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  letter-spacing: 2px; }
+
+p {
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 12px;
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif;
+  text-align: center; }
+
+a {
+  list-style: disc;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #737373 !important; }
+
+a:hover {
+  color: #820022 !important; }
+
+fieldset {
+  background: white; }
+
+button {
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif;
+  width: 40%;
+  height: 70px;
+  text-align: center;
+  border-style: double;
+  color: black !important;
+  margin: 10px 450px 10px 450px;
+  background-color: #D9D9D9;
+  cursor: pointer; }
+
+#contenedor_menu {
+  position: fixed;
+  width: 100%;
+  height: 115px;
+  background-color: white;
+  margin-top: 0px;
+  z-index: 99; }
+
+#menu {
+  width: 100%;
+  height: 15px;
+  padding: 5px 10px 40px 10px;
+  background-color: #F2F2F2;
+  text-align: center; }
+
+#menu ul li {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white !important; }
+
+#img2 {
+  width: 100%;
+  height: 450px;
+  background-image: url(portada.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+#inicio {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  overflow: hidden; }
+
+#nosotros {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  overflow: hidden; }
+
+#nosotros_imagen {
+  width: 65%;
+  height: auto;
+  float: left; }
+
+#imgcompania {
+  width: 100%;
+  height: auto; }
+
+.nosotros {
+  color: black;
+  font-family: "Times New Roman", Georgia, Serif;
+  text-align: left; }
+
+#nosotros_texto {
+  color: black;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif;
+  width: 30%;
+  height: auto;
+  margin: 10px 10px 30px 10px;
+  padding: 5px 5px 10px 10px;
+  float: right; }
+
+#video_contenedor {
+  width: 95%;
+  height: 400px;
+  text-align: center; }
+
+#video_archivo {
+  padding: 35px;
+  width: 100%;
+  height: 100%; }
+
+#boton button:hover {
+  border-radius: 50px;
+  color: #401201 !important;
+  transition: all 1s; }
+
+#listas {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  overflow: hidden; }
+
+.ensalada {
+  font-weight: 900;
+  color: #820022; }
+
+#ensalada_imagen {
+  width: 65%;
+  height: auto; }
+
+#ensalada_texto {
+  color: #757575;
+  width: 30%;
+  height: auto;
+  margin: 10px 10px 30px 10px;
+  padding: 5px 5px 10px 10px;
+  float: right; }
+
+.tarta {
+  font-weight: 900;
+  color: #820022; }
+
+#tarta_imagen {
+  width: 65%;
+  height: auto; }
+
+#tarta_texto {
+  color: #757575;
+  width: 30%;
+  height: auto;
+  margin: 10px 10px 30px 10px;
+  padding: 5px 5px 10px 10px;
+  float: right; }
+
+.sandwich {
+  font-weight: 900;
+  color: #820022; }
+
+#sandwich_imagen {
+  width: 65%;
+  height: auto; }
+
+#sandwich_texto {
+  color: #757575;
+  width: 30%;
+  height: auto;
+  margin: 10px 10px 30px 10px;
+  padding: 5px 5px 10px 10px;
+  float: right; }
+
+#pregfrecuentes {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  overflow: hidden; }
+
+#contacto {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  overflow: hidden;
+  text-align: center; }
+
+.contacto {
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif;
+  border-style: double; }
+
+.nombre_apellido {
+  color: #000000;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif; }
+
+.enviar {
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif; }
+
+#input {
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif;
+  border-style: double;
+  background: #9E1A3F;
+  color: white;
+  width: 85px; }
+
+#input:hover {
+  border-radius: 50px;
+  color: white !important;
+  transition: all 1s; }
+
+.pie {
+  color: grey;
+  text-align: center; }
